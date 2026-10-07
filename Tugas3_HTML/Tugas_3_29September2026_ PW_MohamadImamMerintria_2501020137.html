@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f5e9;
+            color: #263326;
+        }
+
+        .berita {
+            width: 650px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 8px;
+            font-size: 27px;
+            color: #4f6f3f;
+            text-align: center;
+        }
+
+        .data {
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        /* GAMBAR UTAMA */
+        .gambar-utama {
+            width: 300px;
+            height: 150px;
+            margin: auto;
+            margin-bottom: 25px;
+            overflow: hidden;
+            border-radius: 6px;
+        }
+
+        .gambar-utama img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .isi {
+            font-size: 14px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .isi p {
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #4f6f3f;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        /* DOKUMENTASI */
+        .dokumentasi {
+            display: flex;
+            gap: 10px;
+        }
+
+        .gambar {
+            width: 50%;
+            height: 120px;
+            background-color: #d9e5c9;
+            overflow: hidden;
+            border-radius: 6px;
+        }
+
+        .gambar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .footer {
+            margin-top: 40px;
+            border-top: 2px solid #6f875b;
+            padding-top: 6px;
+            text-align: center;
+            font-size: 11px;
+            color: #52624a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="berita">
+
+        <h1>DATA DIRI</h1>
+
+        <div class="data">
+            Penulis : <b>Mohamad Imam Merintria</b><br>
+            NIM : <b>2501020137</b>
+        </div>
+
+        <!-- GAMBAR UTAMA -->
+        <div class="gambar-utama">
+            <img src="data diri.jpeg" alt="Foto Utama">
+        </div>
+
+        <div class="isi">
+
+            <p>
+                Saya lahir di Tanjungpinang, Kepulauan Riau,
+                pada 11 Desember 2005. Saat ini saya sedang menempuh
+                pendidikan sebagai mahasiswa di Universitas Maritim Raja Ali Haji
+                (UMRAH). Menjadi mahasiswa bagi saya merupakan pengalaman
+                yang cukup berbeda karena saya harus mulai menyesuaikan diri
+                dengan kegiatan perkuliahan, tugas, dan lingkungan kampus.
+            </p>
+
+            <p>
+                Selama menjalani perkuliahan, saya masih terus belajar
+                untuk memahami materi yang diberikan oleh dosen. Tidak semua
+                materi bisa langsung saya pahami, sehingga terkadang saya perlu
+                mempelajarinya kembali. Dari kegiatan perkuliahan, saya juga
+                belajar untuk lebih bertanggung jawab dalam mengerjakan tugas
+                dan mengatur waktu agar kegiatan kuliah dapat berjalan dengan baik.
+            </p>
+
+        </div>
+
+        <h3>Dokumentasi</h3>
+
+        <div class="dokumentasi">
+
+            <!-- GAMBAR DOKUMENTASI 1 -->
+            <div class="gambar">
+                <img src="dok 2.jpeg" alt="Dokumentasi 1">
+            </div>
+
+            <!-- GAMBAR DOKUMENTASI 2 -->
+            <div class="gambar">
+                <img src="dokm 1.jpeg" alt="Dokumentasi 2">
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Mohamad Imam Merintria
+        </div>
+
+    </div>
+
+</body>
+</html>
